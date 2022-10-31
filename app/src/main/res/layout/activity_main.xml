@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:orientation="vertical">
+
+    <EditText android:id="@+id/nameEditText"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Введи стоимость автомобиля в ОАЭ"
+              android:inputType="number"
+              android:onClick="clickEditText"
+    />
+
+    <TextView android:id="@+id/nameTextView"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:hint="Стоимость авто со всеми поборами (x1.64)"
+    />
+    <Button
+            android:id="@+id/nameButtonCalc"
+            android:text="Посчитать"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
